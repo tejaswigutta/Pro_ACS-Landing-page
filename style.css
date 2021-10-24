@@ -353,6 +353,27 @@ input::placeholder {
   color: #322C49;
 }
 
+.consulting-process-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: #052A4E;
+  text-align: center;
+}
+
+.consulting-process-img {
+  margin-left: 6.25rem;
+  margin-right: 6.25rem;
+  background-image: url(./Assets/consulting-web.png);
+  background-position: center;
+  min-height: 500px;
+  background-size: contain;
+  /* background-color:black; */
+  background-repeat: no-repeat;
+}
+
 
 @media (max-width: 576px) {
   .byjus-logo img {
@@ -576,6 +597,19 @@ input::placeholder {
   .methodology-text-2 {
     font-size: 14px;
     line-height: 180%;
+  }
+
+  .consulting-process-text {
+    font-size: 18px;
+    line-height: 150%;
+  }
+
+  .consulting-process-img {
+    background-image: url(./Assets/consulting-mobile.png);
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    min-height: 500px;
+   
   }
 
 
