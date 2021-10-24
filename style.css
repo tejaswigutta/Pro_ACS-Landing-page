@@ -412,8 +412,8 @@ input::placeholder {
   }
 
   form {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   form input {
@@ -467,8 +467,8 @@ input::placeholder {
   }
 
   .about-krithika {
-    width: 18.5rem;
-    height: 325px;
+    width: 18rem;
+    height: 350px;
     padding: 12px;
     margin-left: 27px;
     /* margin-right: 206px; */
