@@ -383,6 +383,7 @@ input::placeholder {
 
   .banner {
     height: 189px;
+    width:100%;
   }
 
   .banner-text {
