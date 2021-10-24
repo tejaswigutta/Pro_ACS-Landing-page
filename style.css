@@ -1,0 +1,582 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.byjus-logo {
+  text-align: center;
+}
+
+.byjus-logo img {
+  width: 176.28px;
+  height: 52.48px;
+}
+
+.banner {
+  background-color: #f1f5f6;
+  /* height:756px; */
+  border: 1px solid red;
+  display: flex;
+  height: 100vh;
+}
+
+.banner-text {
+  width: 60%;
+  background-image: url(./Assets/banner-text-web.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-left:40px; */
+}
+
+.banner-pic {
+  width: 40%;
+  background-image: url(./Assets/krithika-web.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  border: 1px solid brown;
+}
+
+.banner-pic-text {
+  border: 2px solid blue;
+  /* padding-top: 30px; */
+  padding-left: 125px;
+  /* height:615px; */
+  margin-top: 340px;
+}
+
+.banner-pic-text div {
+  margin-bottom: 5px;
+}
+
+.banner-pic-text1 {
+  background-image: url(./Assets/yellow-tag.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-size: 32px;
+}
+
+.banner-pic-text2 {
+  color: #ffffff;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.banner-pic-text3 {
+  color: #ffffff;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.banner-pic-text4 {
+  color: #ffffff;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.banner-pic-text5 {
+  color: #ffffff;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.form {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.form-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: #052a4e;
+  text-align: center;
+}
+
+form {
+  padding-left: 150px;
+  padding-right: 150px;
+  margin-top: 20px;
+}
+
+form input {
+  width: 490px;
+  height: 50px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 180%;
+  color: #052a4e;
+  border-radius: 4px;
+  border: 1px solid #bbbbbb;
+  box-sizing: border-box;
+}
+
+input::placeholder {
+  color: #052a4e;
+}
+
+.form-button {
+  /* padding-left:720px; */
+  /* border: 2px solid red; */
+  /* width:1140px; */
+  text-align: center;
+  /* width: 248px;
+  height: 56px; */
+}
+
+.form-button button {
+  width: 248px;
+  height: 56px;
+  background: linear-gradient(84.05deg, #0d63f1 2.91%, #1791ed 103.25%);
+  border-radius: 53px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  color: #ffffff;
+  border: none;
+}
+
+.help-from-mentor {
+  background-image: url(./Assets/blue-web.png);
+  background-size: contain;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.help-from-mentor-text {
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.help-from-mentor-krithika {
+  background-image: url(./Assets/yellow-bg.png);
+  background-size: contain;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  padding-left: 100px;
+  padding-right: 100px;
+  justify-content: space-between;
+}
+
+.help-from-mentor-krithika-1 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+  border: 2px solid red;
+  /* justify-content: center;
+  align-items: center; */
+  vertical-align: middle;
+  padding-top: 15%;
+}
+
+.krithika {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 48px;
+  color: #1e135e;
+}
+
+.co-founder {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #1e135e;
+  /* text-align: center; */
+}
+
+.help-from-mentor-krithika-2 {
+  background-image: url(./Assets/krithika-small-web.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 298.88px;
+  height: 325.18px;
+}
+
+.about-krithika {
+  background-color: #ffffff;
+  position: relative;
+  color: #322c49;
+  width: 850px;
+  height: 290px;
+  padding: 48px;
+  margin-left: 202px;
+  /* margin-right: 206px; */
+  margin-top: -20px;
+  border-radius: 12px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 180%;
+}
+
+.why-careerlabs {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.why-careerlabs-text1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: #052A4E;
+  text-align: center;
+}
+
+.why-careerlabs-text2 {
+  margin-left: 140px;
+  margin-right: 140px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 180%;
+  text-align: center;
+  color: #322C49;
+}
+
+.why-careerlabs-1 {
+  margin-left: 180px;
+  margin-right: 180px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-text {
+  text-align: center;
+  margin-right: 35px;
+  margin-bottom: 30px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid lawngreen; */
+  height: 64px;
+
+}
+
+.text {
+  width: 210px;
+  height: 64px;
+  /* text-align: center; */
+  /* border: 1px solid red; */
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  /* line-height: 180%; */
+  /* text-align: center; */
+  color: #322C49;
+}
+
+.methodology {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 180px;
+  padding-right: 167px;
+  background-color: #FEFDF5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.methodology-pic {
+  margin-right: 80px;
+}
+
+.methodology-text-1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: #052A4E;
+}
+
+.methodology-text-2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 180%;
+  color: #322C49;
+}
+
+
+@media (max-width: 576px) {
+  .byjus-logo img {
+    width: 108.31px;
+    height: 32px;
+  }
+
+  .banner {
+    height: 189px;
+  }
+
+  .banner-text {
+    background-image: url(./Assets/banner-text-mobile.png);
+  }
+
+  .banner-pic {
+    background-image: url(./Assets/krithika-mobile.png);
+  }
+
+  .banner-pic-text {
+    border: 2px solid blue;
+    /* padding-top: 30px; */
+    padding-left: 35px;
+    /* height:615px; */
+    margin-top: 110px;
+  }
+
+  .banner-pic-text1 {
+    background-image: url(./Assets/yellow-tag-mobile.png);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 10px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+  }
+
+  .banner-pic-text2 {
+    font-size: 12px;
+    line-height: 10px;
+  }
+
+  .banner-pic-text3 {
+    font-size: 8px;
+    line-height: 12px;
+  }
+
+  .banner-pic-text4 {
+    font-size: 8px;
+    line-height: 12px;
+  }
+
+  .banner-pic-text5 {
+    font-size: 4px;
+    line-height: 6px;
+  }
+
+  form {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  form input {
+    width: 376px;
+    height: 48px;
+  }
+
+  .form-button button {
+    width: 180px;
+    height: 48px;
+    font-size: 14px;
+  }
+
+  .help-from-mentor-text {
+    font-size: 18px;
+  }
+
+  .help-from-mentor-krithika {
+    background-image: url(./Assets/yellow-bg-mobile.png);
+    background-size: contain;
+    margin-left: 16px;
+    margin-right: 16px;
+    display: flex;
+    padding-left: 12px;
+    padding-right: 12px;
+    justify-content: space-between;
+  }
+
+  .krithika {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .co-founder {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .help-from-mentor-krithika-2 {
+    /* background-image: url(./Assets/krithika-small-mobile.png); */
+    width: 127px;
+    height: 138px;
+  }
+
+  .help-from-mentor {
+    padding-top: 15px;
+  }
+
+  .help-from-mentor-text {
+    margin-bottom: 10px;
+  }
+
+  .about-krithika {
+    width: 21rem;
+    height: 325px;
+    padding: 12px;
+    margin-left: 27px;
+    /* margin-right: 206px; */
+    margin-top: -20px;
+    border-radius: 12px;
+    font-size: 14px;
+    line-height: 180%;
+  }
+
+  .why-careerlabs {
+    padding-top: 15px;
+    padding: bottom:15px;
+  }
+
+  .why-careerlabs-text1 {
+    font-size: 18px;
+    line-height: 150%;
+    margin-left: 22px;
+    margin-right: 22px;
+  }
+
+  .why-careerlabs-text2 {
+    font-size: 14px;
+    line-height: 180%;
+    margin-left: 12px;
+    margin-right: 12px;
+    text-align: justify;
+  }
+
+  .why-careerlabs-1 {
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-items: center; */
+    /* padding-left: 12px;
+    padding-right: 12px; */
+  }
+
+  .img-text {
+    /* text-align: center; */
+    margin-right: 0px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid lawngreen; */
+    height: 64px;
+
+  }
+
+  .text {
+    width: 140px;
+    height: 50px;
+    /* text-align: center; */
+    /* border: 1px solid red; */
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    /* line-height: 180%; */
+    /* text-align: center; */
+    color: #322C49;
+  }
+
+  .methodology {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: #FEFDF5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+  }
+
+  .methodology-pic {
+    text-align: center;
+    margin-right: 0px;
+  }
+
+  .methodology-pic img {
+    width: 210px;
+    height: 125px;
+  }
+
+  .methodology-text {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .methodology-text-1 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .methodology-text-2 {
+    font-size: 14px;
+    line-height: 180%;
+  }
+
+
+}
