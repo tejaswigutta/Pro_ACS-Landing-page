@@ -439,7 +439,7 @@ input::placeholder {
   }
 
   form input {
-    width: 338px;
+    width: 20.5rem;
     height: 48px;
   }
 
@@ -610,6 +610,7 @@ input::placeholder {
     margin-left: 1.25rem;
     margin-right: 1.25rem;
     min-height: 500px;
+    background-size: cover;
    
   }
 
