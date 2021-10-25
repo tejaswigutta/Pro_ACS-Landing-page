@@ -15,7 +15,7 @@ body {
 .banner {
   background-color: #f1f5f6;
   /* height:756px; */
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   height: 100vh;
 }
@@ -25,7 +25,7 @@ body {
   background-image: url(./Assets/banner-text-web.png);
   background-repeat: no-repeat;
   background-position: center;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,11 +38,11 @@ body {
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
-  border: 1px solid brown;
+  /* border: 1px solid brown; */
 }
 
 .banner-pic-text {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   /* padding-top: 30px; */
   padding-left: 100px;
   /* height:615px; */
@@ -138,7 +138,7 @@ form input {
   line-height: 180%;
   color: #052a4e;
   border-radius: 4px;
-  border: 1px solid #bbbbbb;
+  /* border: 1px solid #bbbbbb; */
   box-sizing: border-box;
 }
 
@@ -202,7 +202,7 @@ input::placeholder {
   display: flex;
   flex-direction: column;
   padding-left: 0px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   /* justify-content: center;
   align-items: center; */
   vertical-align: middle;
@@ -415,12 +415,12 @@ input::placeholder {
   background-repeat: no-repeat;
   min-height: 360px;
   width: 604px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .about-careerlabs-text {
   width: 592px;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   padding-top: 20px;
 }
 
@@ -509,7 +509,7 @@ input::placeholder {
   }
 
   .banner-pic-text {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     /* padding-top: 30px; */
     padding-left: 15px;
     /* height:615px; */
@@ -768,12 +768,12 @@ input::placeholder {
     background-repeat: no-repeat;
     /* min-height: 360px; */
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
 
   .about-careerlabs-text {
     width: 100%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     padding-top: 0px;
   }
 
