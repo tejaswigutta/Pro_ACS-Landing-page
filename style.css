@@ -8,8 +8,8 @@ body {
 }
 
 .byjus-logo img {
-  width: 176.28px;
-  height: 52.48px;
+  width: 190.28px;
+  height: 70.48px;
 }
 
 .banner {
@@ -127,7 +127,7 @@ form {
 
 form input {
   /* width: 490px; */
-  width:47%;
+  width: 47%;
   height: 50px;
   margin-right: 20px;
   margin-bottom: 20px;
@@ -245,7 +245,7 @@ input::placeholder {
   position: relative;
   color: #322c49;
   /* width: 850px; */
-  width:63%;
+  width: 63%;
   height: 290px;
   padding: 48px;
   margin-left: 202px;
@@ -262,6 +262,8 @@ input::placeholder {
 .why-careerlabs {
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-left: 140px;
+  padding-right: 140px;
 }
 
 .why-careerlabs-text1 {
@@ -275,8 +277,8 @@ input::placeholder {
 }
 
 .why-careerlabs-text2 {
-  margin-left: 140px;
-  margin-right: 140px;
+  /* margin-left: 140px;
+  margin-right: 140px; */
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
@@ -284,19 +286,29 @@ input::placeholder {
   line-height: 180%;
   text-align: center;
   color: #322C49;
+  /* border:2px solid brown; */
+  /* padding-left: 0px; */
 }
 
 .why-careerlabs-1 {
-  margin-left: 180px;
-  margin-right: 180px;
+  /* margin-left: 120px;
+  margin-right: 120px; */
   display: flex;
   flex-wrap: wrap;
+  /* justify-content: center;
+  align-items: center; */
+  /* border: 2px solid green; */
+  /* padding-left: 15px;
+  padding-right: 15px; */
+  padding-left: 10px;
+
 }
 
 .img-text {
   text-align: center;
-  margin-right: 35px;
+  margin-right: 51px;
   margin-bottom: 30px;
+  /* border:1px solid green; */
 }
 
 .img {
@@ -487,8 +499,8 @@ input::placeholder {
   align-items: center;
 }
 
-#footer p{
-  color:#ffffff;
+#footer p {
+  color: #ffffff;
 }
 
 @media (max-width: 576px) {
@@ -518,7 +530,7 @@ input::placeholder {
     margin-top: 110px;
   }
 
-  
+
 
   .banner-pic-text1 {
     background-image: url(./Assets/yellow-tag-mobile.png);
@@ -558,7 +570,7 @@ input::placeholder {
 
   form input {
     /* width: 20.5rem; */
-    width:99%;
+    width: 99%;
     height: 48px;
   }
 
@@ -610,7 +622,7 @@ input::placeholder {
   .about-krithika {
     /* width: 17.5rem; */
     /* width:1000px; */
-    width:80%;
+    width: 80%;
     height: 400px;
     padding: 12px;
     margin-left: 27px;
@@ -758,7 +770,7 @@ input::placeholder {
 
   .admits-img1 {
     display: block;
-    width:100%;
+    width: 100%;
   }
 
   .about-careerlabs {
@@ -801,13 +813,13 @@ input::placeholder {
     color: #413F4E;
   }
 
-  #checkbox{
-    height:30px;
-    width:30px;
+  #checkbox {
+    height: 30px;
+    width: 30px;
   }
 
-  #footer{
-    height:56px;
+  #footer {
+    height: 56px;
   }
 
 
