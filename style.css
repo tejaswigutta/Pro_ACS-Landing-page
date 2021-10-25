@@ -126,7 +126,8 @@ form {
 }
 
 form input {
-  width: 490px;
+  /* width: 490px; */
+  width:47%;
   height: 50px;
   margin-right: 20px;
   margin-bottom: 20px;
@@ -556,7 +557,8 @@ input::placeholder {
   }
 
   form input {
-    width: 20.5rem;
+    /* width: 20.5rem; */
+    width:99%;
     height: 48px;
   }
 
