@@ -636,6 +636,8 @@ input::placeholder {
   .why-careerlabs {
     padding-top: 15px;
     padding: bottom:15px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   .why-careerlabs-text1 {
