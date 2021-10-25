@@ -643,15 +643,15 @@ input::placeholder {
   .why-careerlabs-text1 {
     font-size: 18px;
     line-height: 150%;
-    margin-left: 22px;
-    margin-right: 22px;
+    margin-left: 6px;
+    margin-right: 6px;
   }
 
   .why-careerlabs-text2 {
     font-size: 14px;
     line-height: 180%;
-    margin-left: 12px;
-    margin-right: 12px;
+    margin-left: 0px;
+    margin-right: 0px;
     text-align: justify;
   }
 
