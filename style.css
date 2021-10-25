@@ -374,6 +374,120 @@ input::placeholder {
   background-repeat: no-repeat;
 }
 
+.admits {
+  background-color: #F9FCFE;
+  padding: 50px 100px;
+}
+
+.admits-img {
+  background-image: url(./Assets/admits-web.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 300px;
+}
+
+
+.admits-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: #052A4E;
+  text-align: center;
+}
+
+.admits-img1 {
+  display: none;
+}
+
+.about-careerlabs {
+  padding: 50px 98px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about-careerlabs-img {
+  background-image: url(./Assets/about-careerlabs-web.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 360px;
+  width: 604px;
+  border: 1px solid red;
+}
+
+.about-careerlabs-text {
+  width: 592px;
+  border: 1px solid green;
+  padding-top: 20px;
+}
+
+.about-careerlabs-text1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: #052A4E;
+}
+
+.about-careerlabs-text2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 180%;
+  color: #413F4E;
+}
+
+#form-1 {
+  background-color: #EAEAFF;
+}
+
+.form-text1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 180%;
+  text-align: center;
+  color: #322C49;
+}
+
+.check-box-div {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#checkbox {
+  margin-right: 10px;
+  margin-bottom: 0px;
+  height: 16px;
+  width: 16px;
+}
+
+#checkbox-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 180%;
+  color: #052A4E;
+}
+
+#footer {
+  height: 80px;
+  background: #001B78;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer p{
+  color:#ffffff;
+}
 
 @media (max-width: 576px) {
   .byjus-logo img {
@@ -383,7 +497,7 @@ input::placeholder {
 
   .banner {
     height: 189px;
-    width:100%;
+    width: 100%;
   }
 
   .banner-text {
@@ -397,7 +511,7 @@ input::placeholder {
   .banner-pic-text {
     border: 2px solid blue;
     /* padding-top: 30px; */
-    padding-left: 35px;
+    padding-left: 20px;
     /* height:615px; */
     margin-top: 110px;
   }
@@ -490,7 +604,7 @@ input::placeholder {
 
   .about-krithika {
     width: 17.5rem;
-    height: 365px;
+    height: 400px;
     padding: 12px;
     margin-left: 27px;
     /* margin-right: 206px; */
@@ -609,10 +723,82 @@ input::placeholder {
     background-image: url(./Assets/consulting-mobile.png);
     margin-left: 1.25rem;
     margin-right: 1.25rem;
-    min-height: 500px;
+    min-height: 964px;
     background-size: cover;
-   
+
   }
+
+  .admits {
+    background-color: #F9FCFE;
+    padding: 24px 16px;
+  }
+
+  .admits-img {
+    background-image: none;
+    min-height: 200px;
+  }
+
+
+  .admits-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #052A4E;
+    text-align: center;
+  }
+
+  .admits-img1 {
+    display: block;
+  }
+
+  .about-careerlabs {
+    padding: 0px 16px;
+    display: block;
+
+  }
+
+  .about-careerlabs-img {
+    background-image: url(./Assets/about-careerlabs-mobile.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* min-height: 360px; */
+    width: 100%;
+    border: 1px solid red;
+  }
+
+  .about-careerlabs-text {
+    width: 100%;
+    border: 1px solid green;
+    padding-top: 0px;
+  }
+
+  .about-careerlabs-text1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #052A4E;
+  }
+
+  .about-careerlabs-text2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 180%;
+    color: #413F4E;
+  }
+
+  #footer{
+    height:56px;
+  }
+
+
+
 
 
 }
