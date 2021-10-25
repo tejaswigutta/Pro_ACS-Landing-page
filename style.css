@@ -243,7 +243,8 @@ input::placeholder {
   background-color: #ffffff;
   position: relative;
   color: #322c49;
-  width: 850px;
+  /* width: 850px; */
+  width:63%;
   height: 290px;
   padding: 48px;
   margin-left: 202px;
@@ -605,7 +606,9 @@ input::placeholder {
   }
 
   .about-krithika {
-    width: 17.5rem;
+    /* width: 17.5rem; */
+    /* width:1000px; */
+    width:80%;
     height: 400px;
     padding: 12px;
     margin-left: 27px;
