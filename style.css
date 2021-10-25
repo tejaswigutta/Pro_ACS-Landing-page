@@ -37,16 +37,16 @@ body {
   background-image: url(./Assets/krithika-web.png);
   background-repeat: no-repeat;
   background-position: right;
-  background-size: contain;
+  background-size: cover;
   border: 1px solid brown;
 }
 
 .banner-pic-text {
   border: 2px solid blue;
   /* padding-top: 30px; */
-  padding-left: 125px;
+  padding-left: 100px;
   /* height:615px; */
-  margin-top: 340px;
+  margin-top: 390px;
 }
 
 .banner-pic-text div {
@@ -516,6 +516,8 @@ input::placeholder {
     margin-top: 110px;
   }
 
+  
+
   .banner-pic-text1 {
     background-image: url(./Assets/yellow-tag-mobile.png);
     font-family: Poppins;
@@ -791,6 +793,11 @@ input::placeholder {
     font-size: 18px;
     line-height: 180%;
     color: #413F4E;
+  }
+
+  #checkbox{
+    height:20px;
+    width:20px;
   }
 
   #footer{
